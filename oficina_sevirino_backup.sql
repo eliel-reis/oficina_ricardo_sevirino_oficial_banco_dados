@@ -37,7 +37,6 @@ CREATE TABLE `nota` (
 
 LOCK TABLES `nota` WRITE;
 /*!40000 ALTER TABLE `nota` DISABLE KEYS */;
-INSERT INTO `nota` VALUES (14,'manu','77783899','2025-08-28 11:37:37'),(15,'Ruan','39867439632','2025-08-28 11:44:59'),(40,'','','2025-08-29 17:13:43'),(61,'Gustavo Lima','99125003','2025-08-29 18:57:12'),(62,'Gustavo Lima','99125003','2025-08-29 18:57:59'),(78,'lula','4571879','2025-09-01 11:59:26'),(79,'Eliel','79985462','2025-09-01 12:02:52'),(80,'Elizete','73 9 9828-7681','2025-09-01 12:22:56'),(81,'Ediel','7399445634','2025-09-01 12:43:34'),(82,'Ricardo','99 9 9999-9999','2025-09-01 12:45:13'),(83,'Mário','7399413596','2025-09-01 13:03:51'),(84,'mario','739941356','2025-09-01 13:06:00');
 /*!40000 ALTER TABLE `nota` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -65,7 +64,6 @@ CREATE TABLE `servico` (
 
 LOCK TABLES `servico` WRITE;
 /*!40000 ALTER TABLE `servico` DISABLE KEYS */;
-INSERT INTO `servico` VALUES (67,79,'Padrão...',0.00),(69,80,'Padrão...',0.00),(70,79,'troca de oleo',35.00),(71,79,'remendo da camero',20.00),(72,81,'mongo',666.00),(73,81,'Padrão...',0.00),(74,82,'reformar moto',7000.00),(75,82,'Padrão...',0.00),(77,83,'Padrão...',0.00),(79,84,'Padrão...',0.00);
 /*!40000 ALTER TABLE `servico` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -78,4 +76,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-09-04 16:26:50
+-- Dump completed on 2025-09-04 16:38:23
